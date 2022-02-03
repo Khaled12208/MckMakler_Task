@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "UI_TestSuite" verbose="10" parallel = "tests" thread-count = "5">
+    <listeners>
+        <listener class-name="org.herokuapp.helpers.TestListener"></listener>
+    </listeners>
+    <test name = "Home Page Elements Test" verbose="10">
+        <classes>
+            <class name = "org.herokuapp.webuitests.HomeTests" />
+        </classes>
+    </test>
+    <test name = "New Add Page  Test" verbose="10">
+        <classes>
+            <class name = "org.herokuapp.webuitests.NewAddTests" />
+        </classes>
+    </test>
+    <test name = "E2E web Test" verbose="10">
+        <classes>
+            <class name = "org.herokuapp.webuitests.UiE2ETesting" />
+        </classes>
+    </test>
+</suite>

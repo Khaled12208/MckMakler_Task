@@ -1,0 +1,10 @@
+[
+  {
+    "_id": "{Id.value}",
+    "name": "Khaled Mc",
+    "street": "bb",
+    "rooms": 55,
+    "price": "300",
+    "status": true
+  }
+]

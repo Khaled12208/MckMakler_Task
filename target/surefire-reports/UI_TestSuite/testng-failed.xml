@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [UI_TestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.herokuapp.helpers.TestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="New Add Page  Test(failed)" verbose="0">
+    <classes>
+      <class name="org.herokuapp.webuitests.NewAddTests">
+        <methods>
+          <include name="UC11_ModifyAdd_Happy"/>
+          <include name="init"/>
+          <include name="UC08_validateCancelButton"/>
+          <include name="Browser_Init"/>
+          <include name="Browser_Termination"/>
+        </methods>
+      </class> <!-- org.herokuapp.webuitests.NewAddTests -->
+    </classes>
+  </test> <!-- New Add Page  Test(failed) -->
+</suite> <!-- Failed suite [UI_TestSuite] -->

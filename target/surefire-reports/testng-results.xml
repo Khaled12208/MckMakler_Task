@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-03T16:44:57 EET" name="UI_TestSuite" finished-at="2022-02-03T16:45:18 EET" duration-ms="21338">
+    <groups>
+    </groups>
+    <test started-at="2022-02-03T16:44:57 EET" name="Home Page Elements Test" finished-at="2022-02-03T16:45:08 EET" duration-ms="11498">
+      <class name="org.herokuapp.webuitests.HomeTests">
+        <test-method is-config="true" signature="Browser_Init()[pri:0, instance:org.herokuapp.webuitests.HomeTests@669513d8]" started-at="2022-02-03T16:44:57 EET" name="Browser_Init" finished-at="2022-02-03T16:45:08 EET" duration-ms="11330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:org.herokuapp.webuitests.HomeTests@669513d8]" started-at="2022-02-03T16:45:08 EET" name="init" finished-at="2022-02-03T16:45:08 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="UC01_validateAdvertisementTableIsDisplayed()[pri:0, instance:org.herokuapp.webuitests.HomeTests@669513d8]" started-at="2022-02-03T16:45:08 EET" name="UC01_validateAdvertisementTableIsDisplayed" finished-at="2022-02-03T16:45:08 EET" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC01_validateAdvertisementTableIsDisplayed -->
+        <test-method signature="UC02_validateAddNewAdvertisementButtonIsEnabled()[pri:0, instance:org.herokuapp.webuitests.HomeTests@669513d8]" started-at="2022-02-03T16:45:08 EET" name="UC02_validateAddNewAdvertisementButtonIsEnabled" finished-at="2022-02-03T16:45:08 EET" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC02_validateAddNewAdvertisementButtonIsEnabled -->
+        <test-method is-config="true" signature="Browser_Termination()[pri:0, instance:org.herokuapp.webuitests.HomeTests@669513d8]" started-at="2022-02-03T16:45:08 EET" name="Browser_Termination" finished-at="2022-02-03T16:45:08 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Termination -->
+      </class> <!-- org.herokuapp.webuitests.HomeTests -->
+    </test> <!-- Home Page Elements Test -->
+    <test started-at="2022-02-03T16:44:57 EET" name="New Add Page  Test" finished-at="2022-02-03T16:45:13 EET" duration-ms="16045">
+      <class name="org.herokuapp.webuitests.NewAddTests">
+        <test-method is-config="true" signature="Browser_Init()[pri:0, instance:org.herokuapp.webuitests.NewAddTests@a77614d]" started-at="2022-02-03T16:44:57 EET" name="Browser_Init" finished-at="2022-02-03T16:45:08 EET" duration-ms="10745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Init -->
+        <test-method is-config="true" signature="init()[pri:0, instance:org.herokuapp.webuitests.NewAddTests@a77614d]" started-at="2022-02-03T16:45:08 EET" name="init" finished-at="2022-02-03T16:45:08 EET" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="UC01_validatePageTitle()[pri:0, instance:org.herokuapp.webuitests.NewAddTests@a77614d]" started-at="2022-02-03T16:45:08 EET" name="UC01_validatePageTitle" finished-at="2022-02-03T16:45:08 EET" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC01_validatePageTitle -->
+        <test-method signature="UC02_validateNameLimitsCounter()[pri:0, instance:org.herokuapp.webuitests.NewAddTests@a77614d]" started-at="2022-02-03T16:45:08 EET" name="UC02_validateNameLimitsCounter" finished-at="2022-02-03T16:45:09 EET" duration-ms="1198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC02_validateNameLimitsCounter -->
+        <test-method signature="UC03_validateNameLimitsWarning()[pri:0, instance:org.herokuapp.webuitests.NewAddTests@a77614d]" started-at="2022-02-03T16:45:09 EET" name="UC03_validateNameLimitsWarning" finished-at="2022-02-03T16:45:10 EET" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC03_validateNameLimitsWarning -->
+        <test-method signature="UC04_validateNameIsMandatory()[pri:0, instance:org.herokuapp.webuitests.NewAddTests@a77614d]" started-at="2022-02-03T16:45:10 EET" name="UC04_validateNameIsMandatory" finished-at="2022-02-03T16:45:10 EET" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC04_validateNameIsMandatory -->
+        <test-method signature="UC05_validatePriceSchema()[pri:0, instance:org.herokuapp.webuitests.NewAddTests@a77614d]" started-at="2022-02-03T16:45:10 EET" name="UC05_validatePriceSchema" finished-at="2022-02-03T16:45:11 EET" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC05_validatePriceSchema -->
+        <test-method signature="UC06_validateSaveButtonIsDisabledWithInvalidParam()[pri:0, instance:org.herokuapp.webuitests.NewAddTests@a77614d]" started-at="2022-02-03T16:45:11 EET" name="UC06_validateSaveButtonIsDisabledWithInvalidParam" finished-at="2022-02-03T16:45:12 EET" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC06_validateSaveButtonIsDisabledWithInvalidParam -->
+        <test-method signature="UC07_validateSaveButtonIsEnabledWitValidParam()[pri:0, instance:org.herokuapp.webuitests.NewAddTests@a77614d]" started-at="2022-02-03T16:45:12 EET" name="UC07_validateSaveButtonIsEnabledWitValidParam" finished-at="2022-02-03T16:45:13 EET" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC07_validateSaveButtonIsEnabledWitValidParam -->
+        <test-method is-config="true" signature="Browser_Termination()[pri:0, instance:org.herokuapp.webuitests.NewAddTests@a77614d]" started-at="2022-02-03T16:45:13 EET" name="Browser_Termination" finished-at="2022-02-03T16:45:13 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Termination -->
+      </class> <!-- org.herokuapp.webuitests.NewAddTests -->
+    </test> <!-- New Add Page  Test -->
+    <test started-at="2022-02-03T16:44:57 EET" name="E2E web Test" finished-at="2022-02-03T16:45:18 EET" duration-ms="21327">
+      <class name="org.herokuapp.webuitests.UiE2ETesting">
+        <test-method is-config="true" signature="Browser_Init()[pri:0, instance:org.herokuapp.webuitests.UiE2ETesting@2baa8d82]" started-at="2022-02-03T16:44:57 EET" name="Browser_Init" finished-at="2022-02-03T16:45:08 EET" duration-ms="10747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Init -->
+        <test-method signature="UC01_AddingNewAdd_Happy()[pri:0, instance:org.herokuapp.webuitests.UiE2ETesting@2baa8d82]" started-at="2022-02-03T16:45:08 EET" name="UC01_AddingNewAdd_Happy" finished-at="2022-02-03T16:45:18 EET" duration-ms="10547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UC01_AddingNewAdd_Happy -->
+        <test-method is-config="true" signature="Browser_Termination()[pri:0, instance:org.herokuapp.webuitests.UiE2ETesting@2baa8d82]" started-at="2022-02-03T16:45:18 EET" name="Browser_Termination" finished-at="2022-02-03T16:45:18 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Termination -->
+      </class> <!-- org.herokuapp.webuitests.UiE2ETesting -->
+    </test> <!-- E2E web Test -->
+  </suite> <!-- UI_TestSuite -->
+</testng-results>
